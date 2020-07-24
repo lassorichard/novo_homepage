@@ -40,7 +40,7 @@
             grid-gap: 20px;
             grid-template-columns: repeat(2, 1fr);
             max-width: initial;
-            padding: 0 20px;
+            padding: 0;
             text-align: center;
 
             @include from (tablet) {
@@ -67,4 +67,8 @@
 
 .etn-speaker-title {
     margin: 0!important;
+}
+
+.dropdown-menu {
+    background: rgba(255,255,255,.7)!important;
 }
